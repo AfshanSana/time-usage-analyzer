@@ -15,32 +15,50 @@ Pie chart visualization 📊
 
 Smart suggestions for better time management
 
-## Project Structure
+🔧 1. Fix Project Structure
+Replace your section with:
+
+## 📂 Project Structure
 time-usage-analyzer/
 │
 ├── src/time_usage_analyzer/
 ├── data/
 ├── pyproject.toml
-├── README.md
-## Installation ⚙️
+└── README.md
+
+🔧 2. Fix Installation
+## ⚙️ Installation
+
 Run this in terminal:
 
+```bash
 python -m pip install -e .
-## How to Run ▶️
-🔹 Basic dataset
+
+---
+
+### 🔧 3. Fix How to Run (IMPORTANT)
+
+```md
+## ▶️ How to Run
+
+### 🔹 Basic dataset
+```bash
 python -m time_usage_analyzer data/sample.csv
 🔹 Weekly dataset
 python -m time_usage_analyzer data/weekly_data.csv
-## Example Output 📈
-Time usage summary
 
-Total hours
+---
 
-Day-wise breakdown
+### 🔧 4. Fix Example Output section
 
-Suggestions
+```md
+## 📈 Example Output
 
-Pie chart visualization
+- Time usage summary  
+- Total hours  
+- Day-wise breakdown  
+- Suggestions  
+- Pie chart visualization    
 
 ## Example Suggestions 💡
 Reduce social media usage
