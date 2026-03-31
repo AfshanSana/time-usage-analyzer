@@ -26,39 +26,28 @@ time-usage-analyzer/
 ├── pyproject.toml
 └── README.md
 
-🔧 2. Fix Installation
+
 ## ⚙️ Installation
 
 Run this in terminal:
 
 ```bash
 python -m pip install -e .
-
----
-
-### 🔧 3. Fix How to Run (IMPORTANT)
-
-```md
-## ▶️ How to Run
-
-### 🔹 Basic dataset
-```bash
+▶️ How to Run
+🔹 Basic dataset
 python -m time_usage_analyzer data/sample.csv
 🔹 Weekly dataset
 python -m time_usage_analyzer data/weekly_data.csv
+📈 Example Output
+Time usage summary
 
----
+Total hours
 
-### 🔧 4. Fix Example Output section
+Day-wise breakdown
 
-```md
-## 📈 Example Output
+Suggestions
 
-- Time usage summary  
-- Total hours  
-- Day-wise breakdown  
-- Suggestions  
-- Pie chart visualization    
+Pie chart visualization    
 
 ## Example Suggestions 💡
 Reduce social media usage
