@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: time-usage-analyzer
+Version: 0.1.0
+Summary: A tool to analyze and visualize time usage
+Author: Sana
+Requires-Dist: pandas
+Requires-Dist: matplotlib

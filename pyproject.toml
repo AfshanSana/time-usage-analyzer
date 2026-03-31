@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "time-usage-analyzer"
+version = "0.1.0"
+description = "A tool to analyze and visualize time usage"
+authors = [
+    { name = "Sana Afshan", email = "sana.afshan@tu-dortmund.de" }
+]
+dependencies = [
+    "pandas",
+    "matplotlib"
+]
+
+[project.scripts]
+time-usage-analyzer = "time_usage_analyzer.__main__:main"

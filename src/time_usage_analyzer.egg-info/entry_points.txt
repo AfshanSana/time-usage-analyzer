@@ -1,0 +1,2 @@
+[console_scripts]
+time-usage-analyzer = time_usage_analyzer.__main__:main
